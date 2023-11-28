@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .socialBrands.active{
+        @apply bg-gradient-to-r from-yellow-500 to-orange-600 text-white
+    }
+  }
